@@ -3,7 +3,7 @@
 ### Highlights:
 _Documentation can be found in file README.md_
 
-The test suite runs various requests on www.google.com and http://
+The test suite runs various requests on www.google.com and http://httpbin.org
 
 ### Features:
 
