@@ -29,7 +29,7 @@ Setup Flask Http Server
     Wait Until Http Server Is Up And Running
 
 Wait Until Http Server Is Up And Running
-    Create Session  wait-until-up  ${HTTP_LOCAL_SERVER}  max_retries=10
+    Create Session  wait-until-up  ${HTTP_LOCAL_SERVER}  max_retries=3
     Get On Session  wait-until-up  /
 
 Teardown Flask Http Server And Sessions
